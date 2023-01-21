@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi profe particular</title>
+    <meta name="keywords" content="CLASE PARTICULAR, AYUDA ESCOLAR, CLASE ONLINE">
+    <meta name="description" content="Te ayudamos a superar tus examenes con clases online con maestros particulares">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header id="menu">
+        <nav>
+            <a href="index.html"><img src="./assets/images/Logo.jpg" class="logo" alt="logo" width="200"
+                    height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">CLASES</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Nosotros te ayudamos a mejorar tus notas</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus
+                porro atque, vel placeat impedit repellendus sint!
+            </p>
+            <div>
+                <button class="btn-primario" type="submit">COMUNICATE</button>
+                <button class="btn-segundo" type="submit">CLASES</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="./assets/images/imagen2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios">
+            <div class="titulo-servicios">
+                <h2>Algunas de las materias en cual te podemos ayudar</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a
+                    molestiae amet eaque consequatur veritatis excepturi at.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <img class="logo1" src="./assets/images/calculadora.png" alt="Matematica">
+                    <h3>Matematica</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <img class="logo2" src="./assets/images/literatura.jpg" alt="Literatura">
+                    <h3>Lenguas y Literatura</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <img class="logo3" src="./assets/images/naturales.jpg" alt="Ciencias Naturales">
+                    <h3>Ciencias Naturales</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Mi Profe Virtual &copy;Todos los derechos reservados 2023
+        </p>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function () {
+            if (window.pageYOffset > 10) {
+                menu.style.backgroundColor = '#fff';
+            }
+            else {
+                menu.style.backgroundColor = 'initial';
+            }
+        }
+    </script>
+</body>
+
+</html>
